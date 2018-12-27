@@ -3,5 +3,8 @@ services:
   node:
     image: node:8.15.0-alpine
     working_dir: /app
+    entrypoint: yarn serve
+    ports:
+      - ${HOST_PORT_NODE:-8080}:8080
     volumes:
       - .:/app

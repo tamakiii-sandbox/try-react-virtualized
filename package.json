@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "main": "index.js",
   "private": true,
+  "scripts": {
+    "serve": "yarn webpack-serve --host 0.0.0.0 --port 8080"
+  },
   "dependencies": {
     "@types/node": "^10.12.18",
     "@types/react": "^16.7.18",
