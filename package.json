@@ -2,5 +2,19 @@
   "name": "app",
   "version": "0.0.0",
   "main": "index.js",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "@types/node": "^10.12.18",
+    "@types/react": "^16.7.18",
+    "@types/react-dom": "^16.0.11",
+    "@types/react-virtualized": "^9.18.11",
+    "css-loader": "^2.1.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-virtualized": "^9.21.0",
+    "source-map-support": "^0.5.9",
+    "ts-loader": "^5.3.2",
+    "webpack": "^4.28.2",
+    "webpack-cli": "^3.1.2"
+  }
 }
